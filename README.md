@@ -1,40 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Heatmap Visualization Project
 
-## Getting Started
+Este projeto é uma aplicação web para gerar um mapa de calor sobre uma imagem com base em dados fornecidos em formato JSON. A aplicação utiliza React, Nextjs, tailwindCSS e Heatmap.js para criar e exibir o mapa de calor.
 
-First, run the development server:
+## Requisitos
+
+- Node.js (v14 ou superior)
+- Yarn ou npm
+
+## Instalação
+
+1. Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Nikaum-js/no-leak-test
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd no-leak-test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Instale as dependências:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn install
+# ou
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Execução
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Inicie o servidor de desenvolvimento:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+yarn dev
+# ou
+npm run dev
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Abra o navegador e acesse `http://localhost:3000`.
